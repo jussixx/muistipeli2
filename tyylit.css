@@ -135,20 +135,20 @@ body {
     }
 
     #yritykset {
-        font-size: 24px;
+        font-size: 20px;
         width: 180px;
         padding: 8px;
         margin-bottom: 15px;
     }
 
     .muistipeli {
-        grid-template-columns: repeat(3, 1fr); /* 3 saraketta, jotta kortit mahtuvat paremmin */
+        grid-template-columns: repeat(4, 1fr); /* 3 saraketta, jotta kortit mahtuvat paremmin */
         gap: 10px;
     }
 
     .kortti {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         font-size: 40px;
         border-radius: 10px;
     }
@@ -170,7 +170,7 @@ body {
 
     /* 🔘 Reset-painike sopivammaksi mobiiliin */
     #resetoiPeli {
-        font-size: 18px;
+        font-size: 16px;
         padding: 12px 24px;
     }
 }
