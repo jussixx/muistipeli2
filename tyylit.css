@@ -28,7 +28,7 @@ body {
 .muistipeli {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -36,8 +36,8 @@ body {
 .kortti {
     display: flex;
     background-color: #ff6600;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     align-items: center;
     justify-content: center;
     color: white;
@@ -147,8 +147,8 @@ body {
     }
 
     .kortti {
-        height: 90px;
-        width: 90px;
+        height: 70px;
+        width: 70px;
         font-size: 40px;
         border-radius: 10px;
     }
