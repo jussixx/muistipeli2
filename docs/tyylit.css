@@ -128,4 +128,55 @@ body {
     background-color: #0077cc;
 }
 
+<<<<<<< HEAD
 /* 📱 Ta
+=======
+
+/* 📱 Mobiililaitteet (alle 768px leveät) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        height: auto; /* Joustavampi korkeus */
+    }
+
+    #yritykset {
+        font-size: 24px;
+        width: 180px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+
+    .muistipeli {
+        grid-template-columns: repeat(3, 1fr); /* 3 saraketta, jotta kortit mahtuvat paremmin */
+        gap: 10px;
+    }
+
+    .kortti {
+        height: 90px;
+        width: 90px;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+
+    .etu, .taka {
+        border-radius: 10px;
+    }
+
+    /* 📏 Virhemittari pienemmäksi mobiilissa */
+    #virhemittari {
+        margin-bottom: 10px;
+    }
+
+    .virhevalo {
+        width: 25px;
+        height: 25px;
+        border: 2px solid black;
+    }
+
+    /* 🔘 Reset-painike sopivammaksi mobiiliin */
+    #resetoiPeli {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+>>>>>>> 9aca514 (Päivitetty mediakysely)
